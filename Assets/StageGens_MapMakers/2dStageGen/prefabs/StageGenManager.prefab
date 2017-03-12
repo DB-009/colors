@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1412475009834048}
+  m_IsPrefabParent: 1
+--- !u!1 &1412475009834048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4069526366227092}
+  - component: {fileID: 114890630719362956}
+  m_Layer: 0
+  m_Name: StageGenManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4069526366227092
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412475009834048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.76, y: -0.43, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114890630719362956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412475009834048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44ecebad3cf0caa4d9e58141d1ff8940, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+  maxStages: 5
+  padding: 5
+  scriptedDesign: 0
+  ScriptedStage: []
+  possibleStageDesigns:
+  - {fileID: 142980, guid: f4046f2fad6a80a4bbf6c0a9330debb2, type: 2}
+  - {fileID: 109694, guid: 3062edebdfdb12242833578326234cda, type: 2}
+  - {fileID: 108530, guid: 6daf2022df139f949b0335f3febc2a10, type: 2}
+  - {fileID: 145488, guid: e8c7915592345744182a8aaead351004, type: 2}
+  - {fileID: 151960, guid: 0856cef467cbac64bb7e631f15ccf132, type: 2}
+  fwdHotSpot: {x: 0, y: 0, z: 0}
+  bkwdHotSpot: {x: 0, y: 0, z: 0}
